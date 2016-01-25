@@ -122,6 +122,10 @@ main {
 main img {
     padding: 1em;
 }
+.start{
+    font-weight: bold;
+    text-shadow: 2px 2px 5px red;
+}
 footer p {
     text-align: center;
     font-weight: bold;
