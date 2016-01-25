@@ -122,7 +122,20 @@ main {
 main img {
     padding: 1em;
 }
+main ul li {
+    color: red;
+}
+main a:link {
+    text-decoration: none;
+}
+main a:hover {
+    color: yellow;
+    text-decoration: none;
+}
 main dt {
+    color: lightblue;
+}
+main h4 {
     color: lightblue;
 }
 .start{
