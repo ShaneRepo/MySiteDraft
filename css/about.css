@@ -123,10 +123,11 @@ main img {
     padding: 1em;
 }
 main ul li {
-    color: red;
+
 }
 main a:link {
-    text-decoration: none;
+    text-decoration: underline;
+    color: lightblue;
 }
 main a:hover {
     color: yellow;
