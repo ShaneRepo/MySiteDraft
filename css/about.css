@@ -107,6 +107,7 @@ aside {
     margin: 0.5em;
     padding: 1em;
     background-color: black;
+    text-shadow: 2px 2px 5px red;
     color: white;
     font-size: 1.125em;
     border-radius: 35px;
@@ -123,7 +124,7 @@ main img {
     padding: 1em;
 }
 main ul li {
-
+    color: lightblue;
 }
 main a:link {
     text-decoration: underline;
