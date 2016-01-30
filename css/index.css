@@ -156,4 +156,11 @@ footer p {
     #mobileMenu{
         display: block;
     }
+    #navLeft h3{
+        background-color: white;
+        text-shadow: 2px 2px 5px red;
+        color: black;
+        font-size: 1em;
+    }
+
 }
