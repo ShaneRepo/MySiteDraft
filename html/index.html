@@ -9,13 +9,21 @@
     <link rel="shortcut icon" href="../images/logo.ico">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/slicknav.css">
     <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
     <script src="../js/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#navTop').slicknav({prependTo:"#mobileMenu"});
+        });
+    </script>
     <script>
         $(function() {
             $( "#tabs" ).tabs();
         });
     </script>
+
 </head>
 <body>
 <!--start of the page header-->
@@ -31,6 +39,7 @@
     <h2>Leveling up everyday in software development</h2>
 </header>
 <!--Top navigation bar-->
+<nav id="mobileMenu"></nav>
 <nav id="navTop">
     <ul>
         <li><a class="current" href="index.html">Home</a> </li>

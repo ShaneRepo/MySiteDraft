@@ -7,7 +7,7 @@ html {
     background-color: gray;
 }
 body {
-    width: 90%;
+    width: 100%;
     max-width: 1024px;
     margin: 0 auto;
     background-color: white;
@@ -114,8 +114,7 @@ aside {
 }
 main {
     width: 60%;
-    max-width: 850px;
-    height: 625px;
+    max-width: 1024px;
     float: left;
     padding: 1em;
     margin-left: 5em;
@@ -146,4 +145,15 @@ main h4 {
 footer p {
     text-align: center;
     font-weight: bold;
+}
+#mobileMenu{
+    display: none;
+}
+@media only screen and (max-width: 1023px){
+    #navTop {
+        display: none;
+    }
+    #mobileMenu{
+        display: block;
+    }
 }
