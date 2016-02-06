@@ -184,6 +184,10 @@ td:first-child {
 td a:hover, a:focus {
     color: red;
 }
+.start{
+    font-weight: bold;
+    text-shadow: 2px 2px 5px red;
+}
 #mobileMenu{
     display: none;
 }

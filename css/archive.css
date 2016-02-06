@@ -129,14 +129,40 @@ main a:link {
     text-decoration: none;
 }
 main a:hover {
-    color: yellow;
+    color: red;
     text-decoration: none;
 }
-main dt {
-    color: lightblue;
+.rList {
+    font-size: 150%;
+    font-weight: bold;
+    padding: .25em;
+    text-indent: 2em;
 }
-main h4 {
-    color: lightblue;
+.tableTitle {
+    color: red;
+    padding: .25em;
+    background-color: black;
+}
+th, td {
+    text-align: center;
+}
+td a {
+    color: black;
+    font-weight: bold;
+}
+tbody th {
+    text-align: left;
+
+}
+tbody tr:nth-child(even) {
+    background-color: lightgrey;
+}
+td:first-child {
+    color: black;
+    font-weight: bold;
+}
+td a:hover, a:focus {
+    color: red;
 }
 .start{
     font-weight: bold;
